@@ -1,4 +1,4 @@
-<%@ page import="Hello"%>
+
 
 <html>
 <body>
@@ -11,9 +11,7 @@
       %>
         <jsp:useBean id = "date" class = "java.util.Date" /> 
       <p>The date/time is <%= date %>
-      
-       <jsp:useBean id = "date2" class = "Hello" /> 
-      <p>The date/time is <%= date2.sayHello() %>
+
      
 </body>
 </html>
