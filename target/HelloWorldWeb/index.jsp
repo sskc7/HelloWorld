@@ -11,8 +11,7 @@
       %>
         <jsp:useBean id = "date" class = "java.util.Date" /> 
       <p>The date/time is <%= date %>
-      
- 
+
      
 </body>
 </html>
