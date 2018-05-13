@@ -25,8 +25,8 @@ public class Threadss extends HttpServlet
     firstLock.lock();
     Thread secondThread = new Thread(new Runnable() {
       public void run() {
-          secondLock.lock();
-          firstLock.lock();
+         // secondLock.lock();
+        //  firstLock.lock();
       }
     });
 
