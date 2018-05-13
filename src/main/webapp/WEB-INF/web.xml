@@ -6,6 +6,12 @@
 
   <display-name>Archetype Created Web Application</display-name>
 
+<servlet>
+    <servlet-name>CrunchifyTutorials</servlet-name>
+    <servlet-class>Threadss</servlet-class>
+    <load-on-startup>1</load-on-startup>
+</servlet>
+  
   
 </web-app>
 
